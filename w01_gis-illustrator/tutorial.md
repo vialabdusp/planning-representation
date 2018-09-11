@@ -53,7 +53,7 @@ For this excercise, please Choose Tabloid (11X17) paper size in landscape orient
 Bookmarks -> Create Bookmarks -> Choose a descriptive name.
 This process will help you go back to the same view if you need to export additional layers to the same illustrator file.
 
-### 6. Export to Illustrator.
+### 5. Export to Illustrator.
 Check that all the layers you need are turned on and that you like how you set the view.
 File -> Export Map -> Choose location and name, make sure the file type is AI!
 
