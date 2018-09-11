@@ -14,17 +14,17 @@ The unzipped file contains ArcGIS and QGIS files and the GIS layers we will be u
 ### 1. Open file
 open the ArcGIS file named: 'illustrator-workshop.mxd'
 
-###2. Adjust layers
+### 2. Adjust layers
 If you open the file and can see the layers, simply skip to the next just.
 However, if some or none of the layers are visible and you see a red exclamation mark next to the Layer's name, it means that the connection between the file you're working on and the referenced shapefile is broken. To repair this problem, right-click on one of the files in the TOC, and click “Data” and then select “Repair Data Source…” and navigate to the file which should be in the Data folder.
 
-###3. Adjust Projection
+### 3. Adjust Projection
 While the world is round, projections are flat. It is important to choose a projection that's appropriate to your location, otherwise your drawing will look squashed.
 ![Data Frame Properties](./images/projection.JPG)
 In the Table of Content, right-click on the name of the Data Frame (in this case - layers) and choose Properties.
 In the pop-up Data Frame Properties window choose the Coordinate Systems tabs. Here choose Projected Coordinate Systems -> State Plane -> NAD 1983 (CORS96) (US FEET) -> NAD_1983_CORS96_StatePlane_Massachusetts_Mnld_FIPS_2001_FtUS. Click OK.
 
-###4. Defining layout view and Bookmark
+### 4. Defining layout view and Bookmark
 Defining a layout view is super important for 2 reasons:
 1. If a specific scale is important for your map, you need to set scale and paper size in GIS.
 2. If this is a work in progress and you might want to add layers in the future, this will make the process quick and easy.
@@ -46,7 +46,7 @@ For this excercise, please Choose Tabloid (11X17) paper size in landscape orient
 Bookmarks -> Create Bookmarks -> Choose a descriptive name.
 This process will help you go back to the same view if you need to export additional layers to the same illustrator file.
 
-###6. Export to Illustrator.
+### 6. Export to Illustrator.
 Check that all the layers you need are turned on and that you like how you set the view.
 File -> Export Map -> Choose location and name, make sure the file type is AI!
 ![Data Frame Properties](./images/exportai.JPG)
