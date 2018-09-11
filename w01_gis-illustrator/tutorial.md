@@ -26,13 +26,15 @@ While the world is round, projections are flat. It is important to choose a proj
 In the Table of Content, right-click on the name of the Data Frame (in this case - layers) and choose Properties.
 In the pop-up Data Frame Properties window choose the Coordinate Systems tabs. Here choose Projected Coordinate Systems -> State Plane -> NAD 1983 (CORS96) (US FEET) -> NAD_1983_CORS96_StatePlane_Massachusetts_Mnld_FIPS_2001_FtUS. Click OK.
 
-### 4. Defining Layout View and Bookmark
+### 4. Define Layout View and Bookmark
 Defining a layout view is super important for 2 reasons:
 1. If a specific scale is important for your map, you need to set scale and paper size in GIS.
 2. If this is a work in progress and you might want to add layers in the future, this will make the process quick and easy.
 
-Follow the following steps:
-1. Click on a small icon at the bottom left of the page that reads "layout view".
+Follow these steps:
+1. Click on the "layout view" icon, it's the second icon to the left, located at the bottom left part of the screen.
+
+![Rulers](./images/viewport.JPG)
 
 2. Define paper size:
 File -> Page and Print Setup
