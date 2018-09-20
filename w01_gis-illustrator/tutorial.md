@@ -93,11 +93,11 @@ In the Project dropdown menu, select `Properties`. In the prompt that appears, s
 
 And your map should look something like this...
 
-![Projected Map](.images/qgis_projected.png)
+![Projected Map](./images/qgis_projected.png)
 
 ### 4. Define Layout View and Bookmark
 
-![Kendall Square extent](.images/kendall_extent.png)
+![Kendall Square extent](./images/kendall_extent.png)
 
 1. Zoom to the portion of Kendall Square adjacent to the Longfellow Bridge (e.g., something like the above).
 2. Bookmark this view so you can come back to it later! `View > New Bookmark` - this will save you a ton of agony if you need to produce a new map or plan of this same map extent!
