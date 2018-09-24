@@ -4,7 +4,7 @@ Eric Huntley and Yael Nidam
 (add image)
 
 ### File for This Exercise
-Open the Illustrator file your exported from ArcMap or QGIS.
+Open the Illustrator file you exported from ArcMap or QGIS.
 Alternatively, download the file we exported for you from here.
 
 ## Checkout Paper Size and Margins
@@ -12,10 +12,10 @@ Alternatively, download the file we exported for you from here.
 ### 1. Add Rulers
 In the top panel: View -> Rulers -> Show Rulers
 
-![rulers](./images/ruleres.jpg)
+![rulers](./images/rulers.jpg)
 
 ### 2. Name Artboard
-In the left panel, press on the artboard icon, this will change the  top bar to artboard specification. Here you can edit the W (width) and H (Hight) measurement of your, name your artboard and create more artboards as necessary. To get back to the selection menu click on the top arrow on the left panel (shortcut - v).
+In the left panel, press on the artboard icon, this will change the top bar to artboard editing. Here you can edit the W (width) and H (Hight) measurements, name your artboard and create more artboards as necessary. To get back to the selection menu click on the top arrow on the left panel (shortcut - v).
 
 ![artboard](./images/artboard.JPG)
 
@@ -28,27 +28,26 @@ In the top panel: Type -> Legacy Text -> update all legacy text.
 ![text](./images/text.JPG)
 
 ### 2. Organize layers
-GIS does a great job of exporting every layer to a different illustrator group. However, it sometimes creates weird group combination for the north arrow and scale.
-To organize each item under the appropriate layer follow these steps:
+GIS exports every layer to a different illustrator group. For none-layers elements, grouping is not always helpful and needs editing. In this case, we will reorganize the north arrow and scale elements. Follow these steps:
 1. For housekeeping purposes, change the name of 'layers' to 'GIS Layers'. Now, turn this layer off by clicking on the eye icon next to the layer.
-2. Create 2 new layers: 'North Arrow' and 'Scale', by clicking on the 'create new layer icon' at the bottom right next to the bin.
-3. Look into layer 'other 2' where currently the north arrow and scale geometry is stored and delete <Clipping Path> by dragging it to the bean at the bottom corner of the layer window.
+2. Create 2 new layers: 'North Arrow' and 'Scale', by clicking on the 'create new layer icon' at the bottom right of the layers window, second from the right.
+3. Checkout layer 'other 2' where currently the north arrow and scale geometry is stored and delete the 'Clipping Path' by dragging it to the bin at the bottom corner of the layer window.
 4. Choose layer 'other 2', hover over the selected area and right click, choose ungroup (shortcut: Ctrl + Shift + G).
-5. In the artboard, select the scale elements. In the layer menu: Select the layer 'scale' you just created.  In the artboard,  right click and choose arrange - > send to current layer. Do the same for the arrow.
+5. In the artboard space, select the scale elements. Afterwards, go ton the layer menu and Select the layer 'scale' you just created.  In the artboard space, right click and choose arrange - > send to current layer. Do the same for the arrow.
 
 ![scale](./images/scale.png)
 
-6. Other 2 layer should be empty now, erase it by dragging it to the bin at the bottom right of the layer window.
+6. 'Other 2' layer should be empty now, erase it by dragging it to the bin at the bottom right of the layer window.
 7. Turn on 'GIS layers'.
 
-### 3. Lock <Clipping Path>
-Layers exported from GIS to illustrator will always be groups containing all geometry and a <Clipping Path>. Since illustrator reads the <Clipping Path> as an additional geometry, we will need to lock this layer so we can edit the geometry without changing the frame.
-click on the layers icon in the right panel. In the new window, under 'layers' open the GIS groups one by one and lock the <Clipping Path> by checking the box next to the eye icon of that layer.
+### 3. Lock 'Clipping Path'
+Layers exported from GIS to illustrator are groups of line work and 'Clipping Path. Since illustrator reads the 'Clipping Path' as an additional geometry, we will need to lock this layer so we can edit the geometry without changing the frame.
+Go to the layers panel, Open each of the groups under 'GIS layers' and lock the 'Clipping Path by checking the box next to the eye icon of that layer.
 
 ![layers](./images/layers.JPG)
 
 ### 4. Layer order
-Illustrator layers are like paper, the top one covers and hides the layers underneath. Reorder the layers to match the following image:
+Layer order is significant in illustrator, since the top layer covers and hides the layers underneath it. Reorder the layers to match the following image:
 
 ![layerorder](./images/layerorder.JPG)
 
@@ -80,7 +79,7 @@ fill color #B5B5B5, stroke none.
 1. fill color 999999, stroke none.
 
 2. Adjust 'BASEMAP_Roads' layer:
-Go back to the layer menu and look at layers under the group 'BASEMAP_Roads'. You'll find most of the layers are <path> and only two of them are <Compound Path>. Drag the two <Compound Path> to the top of the group under the <Clipping Path> and lock them. Next select all layers in the 'BASEMAP_Roads' group by clicking on the circle on the right hand side and type 'Ctrl+G', this will create a new group, double click on it to name it 'roads2'. turn this group off.
+Go back to the layer menu and look at layers under the group 'BASEMAP_Roads'. You'll find most of the layers are 'path' and only two of them are 'Compound Path'. Drag the two 'Compound Path' to the top of the group under the Clipping Path' and lock them. Next select all layers in the 'BASEMAP_Roads' group by clicking on the circle on the right hand side and type 'Ctrl+G', this will create a new group, double click on it to name it 'roads2'. turn this group off.
 
 ### Mid-result
 ![layercolor](./images/layercolor.JPG)
