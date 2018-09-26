@@ -96,6 +96,7 @@ draw the contour of the water. Fill color #14283D, stroke none.
 3. Add shadow.
 4. Sprinkle trees on the plan. Choose the object you want to copy and use alt + left click while hovering over the object. drag the copied object to the desire location.
 5. To highlight a specific area, you can create a new layer, in this case 'trees2', with slightly darker trees.
+
 ![final](./images/final.JPG)
 
 ### Using Pen
@@ -105,7 +106,9 @@ draw the contour of the water. Fill color #14283D, stroke none.
 4. Create a path where you would like to locate a tree line, define fill=none and stroke=color of your choice.
 5. Go to the stroke window (window->stroke)
 6. Check the box for Dashed line and define dash=0.1 and gap=20, weight=14.
+
 ![stroke](./images/stroke.JPG)
+
 7. After you have an initial line you can add more sections by using the pen tool and click on the end point of the line and continue drawing. You can also edit the shape of the line by changing editing the control points. Pen + (-) deletes anchor point, pen + (+) adds anchor point. Shift+C changes the angle.
 8. You can cut any shape into segments using the scissors (shortcut c).
 
@@ -131,5 +134,3 @@ Lets add texture to the ground.
 3. Choose both layers and right click -> Choose create compound path.
 4. Choose fill = white and stroke black. Change opacity to 70%.
 ![compound](./images/compound.JPG)
-
-## Print
