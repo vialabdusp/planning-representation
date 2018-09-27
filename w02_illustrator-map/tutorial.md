@@ -4,7 +4,7 @@ Eric Huntley and Yael Nidam
 
 ### File for This Exercise
 
-First, download the files from [Eric's Public Athena locker](mit.edu/ehuntley/Public/illustrator-workshop.zip). Or use your files from last week!
+First, download the files from [Eric's Public Athena locker](https://mit.edu/ehuntley/Public/illustrator-workshop.zip). Or use your files from last week!
 
 ## Setup Workspace
 
