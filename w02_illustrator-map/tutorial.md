@@ -3,8 +3,8 @@
 Eric Huntley and Yael Nidam
 
 ### File for This Exercise
-Open the Illustrator file you exported from ArcMap or QGIS.
-Alternatively, download the file we exported for you from here.
+
+First, download the files from [Eric's Public Athena locker](mit.edu/ehuntley/Public/illustrator-workshop.zip). Or use your files from last week!
 
 ## Setup Workspace
 
