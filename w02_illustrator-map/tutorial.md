@@ -1,5 +1,5 @@
 # Illustrator Site Map
-
+![final02](./images/final02.JPG)
 Eric Huntley and Yael Nidam
 
 ### File for This Exercise
@@ -51,37 +51,30 @@ To adjust colors, use the fill & stroke icons At the bottom of the left panel. T
 
 The following fill and stroke colors are suggestions, feel free to experiment with different colors.
 
-### Buildings
-1. 'Buildings' - fill color white, stroke black, stroke weight 0.25.
+### Adjust 'BASEMAP_Roads' layer:
+Go back to the layer menu and look at layers under the group 'BASEMAP_Roads'. You'll find most of the layers are 'path' and only two of them are 'Compound Path'. Drag the two 'Compound Path' to the top of the group under the Clipping Path' and lock them. Next select all layers in the 'BASEMAP_Roads' group by clicking on the circle on the right hand side and type 'Ctrl+G', this will create a new group, double click on it to name it 'roads2'. turn this group off.
+
+## Add Shadow
+1. Choose the building layer.
 2. Add shadow - Effect -> Stylize -> Drop Shadow.
 
 ![shadow](./images/shaddow.JPG)
 
-### Public Space
-1. fill color #E8D267, stroke none.
-2. Add shadow to docks.
-
-### Parking
-fill color #B5B5B5, stroke none.
-
-### Roads
-1. fill color 999999, stroke none.
-
-2. Adjust 'BASEMAP_Roads' layer:
-Go back to the layer menu and look at layers under the group 'BASEMAP_Roads'. You'll find most of the layers are 'path' and only two of them are 'Compound Path'. Drag the two 'Compound Path' to the top of the group under the Clipping Path' and lock them. Next select all layers in the 'BASEMAP_Roads' group by clicking on the circle on the right hand side and type 'Ctrl+G', this will create a new group, double click on it to name it 'roads2'. turn this group off.
+3. Repeat similar process to add Shadow to the docks layer.
 
 ### Mid-result
-![layercolor](./images/layercolor.JPG)
+![mid](./images/mid.JPG)
+
 
 ## Add ground and water
 
 1. In the layer menu, under 'Roads', add 2 layers:
 'Ground', 'Water'.
 
-2. Choose Ground - go to the left panel and select the rectangle tool (shortcut - m). Draw a rectangle the size of the frame. define fill color #EFEDE6, stroke none.
+2. Choose Ground - go to the left panel and select the rectangle tool (shortcut - m). Draw a rectangle the size of the frame. Define fill color as you like and stroke none.
 
 3. Choose Water - Go to the left panel and choose the pen tool (shortcut - p).
-draw the contour of the water. Fill color #14283D, stroke none.
+draw the contour of the water. Define fill color as you like and stroke none.
 
 4. Create Gradient for the water color:
 - Open the gradient tool: Window -> Gradient
@@ -92,12 +85,10 @@ draw the contour of the water. Fill color #14283D, stroke none.
 ## Add Trees
 ### Using shapes
 1. In the layer menu, create new layer 'trees'. Choose the layer and adjust opacity to 40%.
-2. In the left panel, choose the ellipse tool (L) and draw a circle the size of a tree. Fill color #A15443, stroke #4C211C.
+2. In the left panel, choose the ellipse tool (L) and draw a circle the size of a tree. Define fill color and stroke.
 3. Add shadow.
 4. Sprinkle trees on the plan. Choose the object you want to copy and use alt + left click while hovering over the object. drag the copied object to the desire location.
 5. To highlight a specific area, you can create a new layer, in this case 'trees2', with slightly darker trees.
-
-![final](./images/final.JPG)
 
 ### Using Pen
 1. Go to the layer menu - > Create a new group called 'tree3' and place in 'GIS Layers' above 'public space'.
@@ -133,4 +124,3 @@ Lets add texture to the ground.
 - A smaller circle/rectangle/shape around an area you want to highlight.
 3. Choose both layers and right click -> Choose create compound path.
 4. Choose fill = white and stroke black. Change opacity to 70%.
-![compound](./images/compound.JPG)
