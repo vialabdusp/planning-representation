@@ -12,16 +12,15 @@ You can also download the final PSD file from here:
 ## Basic shortcuts for tools used in this tutorial
 Tools on the left panel:
 
-Move = v
-Rectangle Marquee  = m
-Lasso = l
-Magic wand = w
-Crop = c
-Clone = s
-Eraser = e
-Gradient = g
-Pen = p
-Line = u
+- Rectangle Marquee  = m
+- Lasso = l
+- Magic wand = w
+- Crop = c
+- Clone = s
+- Eraser = e
+- Gradient = g
+- Pen = p
+- Line = u
 
 Addionally, every tool you choose will have a different top bar where you can make adjustment to how you use the tool.
 To start, let's set the move tool bar - uncheck the auto-select. For now we will use the layer menu to select layers we wish to work on. We can still select images manually by pressing the control button and left-clicking above the image we want to select.
