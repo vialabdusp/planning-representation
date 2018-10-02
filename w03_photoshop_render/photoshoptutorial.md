@@ -1,7 +1,7 @@
 # Photoshop render
 Eric Huntley and Yael Nidam
 
-![final](./images/12 Ames St.jpg)
+![final](./images/12AmesSt.jpg)
 
 This tutorial will introduce you to rendering technics in photoshop that will help tell a compelling story about your images.
 
