@@ -7,7 +7,7 @@ This tutorial will introduce you to some simple collaging and in photoshop that 
 
 ## Files for This Exercise
 
-You can follow this tutorial using any image you like, or [download the images used in this tutorial](http://http://duspviz.mit.edu/resources/adobe/Photoshop_StreetView.zip). The final graphic (very large!) is [available as well](http://http://duspviz.mit.edu/resources/adobe/Streetview.psd).
+You can follow this tutorial using any image you like, or [download the images used in this tutorial](http://http://duspviz.mit.edu/resources/adobe/Photoshop_StreetView.zip). The final graphic (very large!) is [available as well](https://www.dropbox.com/s/l0aoz27h5w7yu76/StreetView.zip?dl=0).
 
 ## Hotkeys!
 
