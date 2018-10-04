@@ -1,16 +1,17 @@
-# Photoshop render
-Eric Huntley and Yael Nidam
+# Quick Street Perspective from Google Street View
+[Eric Huntley](@ehuntley) and [Yael Nidam](@yaelnidam)
 
 ![final](./images/12AmesSt.jpg)
 
-This tutorial will introduce you to rendering technics in photoshop that will help tell a compelling story about your images.
+This tutorial will introduce you to some simple collaging and in photoshop that will help tell a compelling story about your images.
 
-### File for This Exercise
-You can follow this tutorial using any image you like, or download the images used in this tutorial from here:
-You can also download the final PSD file from here:
+## Files for This Exercise
 
-## Basic shortcuts for tools used in this tutorial
-Tools on the left panel:
+You can follow this tutorial using any image you like, or [download the images used in this tutorial](http://http://duspviz.mit.edu/resources/adobe/Photoshop_StreetView.zip). The final graphic (very large!) is [available as well](http://http://duspviz.mit.edu/resources/adobe/Streetview.psd).
+
+## Hotkeys!
+
+We'll be using a number fo tools in this exercise. It can get very tedious clicking on these in the toolbar... as such, you might want to start getting up on your hotkeys. The tools in this exercise are:
 
 - Rectangle Marquee = m
 - Lasso = l
@@ -22,32 +23,42 @@ Tools on the left panel:
 - Pen = p
 - Line = u
 
-Addionally, every tool you choose will have a different top bar where you can make adjustment to how you use the tool.
+Addionally, every tool you choose will have an associated toolbar where you can set the tool's parameters and properties.
+
+If you want to really commit to learning hot keys, download a 'cheat sheet'! There are many of these... [try this one if you like icons printed on keys](https://cdn.makeawebsitehub.com/wp-content/uploads/2015/04/photoshop-a4-keyboard-shortcuts-print-pdf.pdf).
+
 To start, let's set the move tool bar - uncheck the auto-select. For now we will use the layer menu to select layers we wish to work on. We can still select images manually by pressing the control button and left-clicking above the image we want to select.
 
-## 01 Improve Image Quality
+## Improve Image Quality
+
 Sometimes the only images available to us are of low quality, that doesn't mean we cannot produce great images! Follow these steps to improve the quality of the image:
 
-### 1. Use Skew to Adjust Perceptive
+### Use Skew to Adjust Perceptive
+
 Images taken from google earth can have twisted perspectives. One way to correct a perspective is to use the skew tool. First make sure the rulers are on (view ->Rulers). Next, press on control and drag a guide line from the edge of the vertical ruler. place the guideline next to a line in the image that should be vertical but isn't, like the window line. Lastly, using the move tool (v), choose the image, check the box to show transform controls at the top bar and press skew to change the location of the vertex so that the perspective will be more similar to normal pictures.
 
-### 2. Use Clone to Remove Street Name
+### Use Clone to Remove Street Name
+
 The clone tool paints with pixels from another part of the image. We will use this tool to paint over the street name with road pixels from adjucent area.
+
 - Choose the clone tool (s) and right click to choose a soft edges brush and adjust brush size.
 - Alt+click to define the area you wish to clone.
 - click on the area you wish to paint over.
 
-### 3. Shadow-highlights
+### Shadow-highlights
+
 This effects enables editing of the shadows and highlight of the image.
 Image ->Adjustments -> Shadow/Highlights
 
-### 4. Sharpen
+### Sharpen
+
 This filter will make the image appear slightly less pixelated.
 There are 2 steps:
 1. Filter -> Sharpen -> Unsharp mask Choose Amount>=170 Radius <=2.5
 2. Filter -> Sharpen -> Unsharp mask Choose Amount<=50 Radius >=80
 
-### 5. Adjustment layers
+### Adjustment layers
+
 At the layer menu, choose the image adjustment icon - it's the half full circle at the middle. From the pop out box, choose these tools:
 1. levels - corrects the tonal range and color balance of an image by adjusting intensity levels of image shadows, midtones, and highlights. click on the eyedropper tool to set the absolute black and white of the image respectively.
 2. Brightness/Contrast - for this image define brightness=10, contrast=18.
@@ -55,43 +66,51 @@ At the layer menu, choose the image adjustment icon - it's the half full circle 
 4. Create a new group called effects and drag all the adjustment layers inside. To create group - go to the bottom of the layers menu and click on the group icon, third from the right.
 
 ## 02 Add Sky
+
 First, create a group called "sky" in the layer menu.
 
-### 1. Use Pen and Mask
+### Use Pen and Mask
+
 Use the pen tool (p) to create the boundaries of the new sky.
+
 - Trace the shape of the Sky
-- After you close a shape, go to the layer menu and chose the "sky" group.
+- After you close a shape, go to the layer menu and choose the "sky" group.
 - Choose the "add layer mask" icon at the bottom of the layer menu (looks like a camera, third to the left).
 - You'll see a linked rectangle next to your group, that is the mask! The mask is a linked layer that literally masks the layer it is linked to. If you choose the mask, you can use black and white colors to edit what is under the mask, when black color is used to mask and white color to expose.
 
-### 2. Use Gradient
+### Use Gradient
+
 - Under the sky group, create a new layer called "Sky Color" and choose this layer.
 - select the Gradient (G) in the left panel. Define foreground color= bddbf2 and background color = dae3eb.
 - click and drag the mouse from top to bottom to create a gradient.
 - Since this layer in under a group with a mask, you only see the area that isn't hidden by the mask. If you want to see the entire layer, you'll have to disable the mask.
 
-### 3. Add Image
+### Add Image
+
 Lastly, to add texture to the sky, you can add any image from your own photos or google. Just drag the image into the file and into the sky group and adjust opacity and size.
 
+## Add Bike Lane
 
-## 03 Add bike lane
 Photoshop can make your dreams come true and put a bike lane where a parking space used to be. Just follow these steps:
 
-### 1. Use Line Tool to Create Perspective Lines
+### Use Line Tool to Create Perspective Lines
+
 - In the layers menu, create a new group called "perspective".
 - Choose the line tool (u) and define weight = 0.1cm. Addionally, define fill color as none, stoke as red, and in the path options menu define thickness=0.5px
 - Make sure the "perspective" group is chosen in the layer menu.
-- use the line tool to create perspective lines by clicking, dragging and releasing when you want to end the line.
+- Use the line tool to create perspective lines by clicking, dragging and releasing when you want to end the line.
 
 ![final](./images/perspective.JPG)
 
-### 2. Use Lasso Tool to Create a New Sidewalk
+### Use Lasso Tool to Create a New Sidewalk
+
 - Create a new group and name it "ground"
 - Under "ground" - Create a new layer and name it "sidewalk"
 - Choose "sidewalk" and choose the lasso tool (l). draw the desired sidewalk area between the perspective lines.
 - After closing a shape, right click and choose "fill". In the pop up box choose Contents -> color -> Choose sidewalk color. You can also use the eyedropper to sample a color from the drawing.
 
-### 3. Use Lasso Tool to Create sidewalk features
+### Use Lasso Tool to Create sidewalk features
+
 Create a new layer for each unique feature:
 - Bike lane.
 - Tree planting row.
@@ -102,7 +121,8 @@ Use the same process to create the content for each layer. The final result shou
 
 ![final](./images/ground0.JPG)
 
-### 4. Use Mask and Rectangle Marquee to create "dashed" lines.
+### Use Mask and Rectangle Marquee to create "dashed" lines.
+
 - Choose the bicycle divider layer and create a layer mask.
 - Choose the mask.
 - Choose the rectangle Marquee tool (m) and create a rectangle around the area you wish to mask (Part of the line).
@@ -110,7 +130,8 @@ Use the same process to create the content for each layer. The final result shou
 - Repeat process until you have a dashed line, make sure to obey perspective rules where lines appear long at the front and appear shorter the farther they are from the camera.
 - Do the for the tree planting layer.
 
-### 5. Add sidewalk texture
+### Add sidewalk texture
+
 - Choose a texture from the internet or the provided folder and drag to the "ground" layer.
 - Use the skew tool to place in perspective.
 - use the mask tool to clip to the desired dimensions.
@@ -118,7 +139,8 @@ Use the same process to create the content for each layer. The final result shou
 ![final](./images/ground.JPG)
 
 
-## 04 Add Trees
+## Add Trees
+
 1. Download trees or use trees from the provided file into a new group named "trees".
 2. After adjusting to the largest needed tree scale, click on the tree layer and rasterize layer.
 2. Use magic wand tool (w) to delete black background. Make sure to define tolerance=0 and check the box for continues in the top bar.
@@ -132,6 +154,7 @@ Use the same process to create the content for each layer. The final result shou
 3. Use the Burn/Dodge tool to add depth, by making areas exposed to the sun lighter and vise versa.
 
 ### Create tree shadow
+
 1. Create a new group names "Tree Shade" and place under trees. Set opacity to 40%.
 2. Duplicate one of the trees in one of two ways:
 - Drag it to the new layer icon at the bottom of the layer menu.
@@ -144,7 +167,8 @@ Use the same process to create the content for each layer. The final result shou
 
 ![final](./images/tree1.JPG)
 
-## 05 Use Brush effects to add Vegetation
+## Use Brush effects to add Vegetation
+
 1. Create a new group named "Vegi".
 2. In this group, create a new layer named "grass".
 3. Choose the brush tool (b) and choose a grass brush. If none is available install any grass brush from google or from the provided folder.
@@ -154,14 +178,17 @@ Use the same process to create the content for each layer. The final result shou
 
 ![final](./images/grass.JPG)
 
-## 06 Add people and objects
+## Add people and objects
+
 1. Create a new group named "people"
 2. Download images from google or use the provided image.
 3. Place people in the image and scale appropriately.
 4. Add shadow the same way you added shadow to trees.
 
-## 07 Color Effects
+## Color Effects
+
 This trick adds vitality to the image and focuses the viewer's attention on the story you want to tell.
+
 1. Create a new layer and name it "effects2", set opacity to 50%.
 2. Create 2 new layers and name them: "light" and "dark".
 3. Choose light and use the gradient tool (g) to fill it with a warm yellow/bright orange color.
@@ -172,10 +199,12 @@ This trick adds vitality to the image and focuses the viewer's attention on the 
 8. Now Choose the "dark" layer and use the gradient tool to color it dark green (nearly black), and repeat steps 4-6.
 9. Choose the "dark" mask and use the gradient tool (g), radial option, to create an "Instagram effect" where the edges/less important information is darker and the focus area is lighter.
 
-## 07 Light Effects
-When the image is final and you want to add one final touch, that's the time for a light effect.
-1. Create a new group named "render" and place all the layers you've worked on so far in this group.
+## Light Effects
+
+When the image is final and you want to add one final touch, add a final light effect.
+
+1. Create a new group named "perspective" and place all the layers you've worked on so far in this group.
 2. duplicate group by dragging it to the "new layer" icon at the bottom of the layer menu.
 3. right click on the duplicate layer and merge layers, name the new layer "light effect".
-4. In the top tab: Filter ->Render -> Lighting Effect. Choose the effect you want.
+4. In the top tab: Filter -> Render -> Lighting Effect. Choose the effect you want.
 5. Play with this layer's opacity to see what's the best fit for the render.
