@@ -70,3 +70,10 @@ Design tips:
 Drag and drop images into the InDesign artboard. One click on the image will let you add the frame size and location. Double click on the image will let edit size and scale.
 
 ![Images](./images/images.JPG)
+
+
+## Package
+
+Similar to Illustrator and GIS, InDesign doesn't embed images, it saves the link to those images. This feature enables fast work on large files. At the same time, it does necessitate packaging the file and all its images in order to transfer from one computer to another.
+File -> Package -> Package.
+Tip for group work: keep all your InDesign images in the same place.
