@@ -1,7 +1,7 @@
 # Layout in InDesign
 [Eric Huntley](@ehuntley) and [Yael Nidam](@yaelnidam)
 
-![final](./images/board.jpg)
+![final](./images/board.JPG)
 
 InDesign is often used for preparing poster and book layouts. This tutorial will introduce you to some basic time-saving features that will help you get started with your own poster or portfolio.
 
