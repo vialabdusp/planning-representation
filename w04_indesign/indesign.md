@@ -23,11 +23,11 @@ File -> New Document. This is where you define the basic setup of your document.
 - Columns:2
 - Column Gutter: 0.2 inches
 - Margins: 1 inch (all)
-- Bleed*: 0 inch (all)
+- Bleed**: 0 inch (all)
 - Slug: 0 inch (all)
 
-* This tutorial will not cover bleed, but if you want to learn out more about it checkout [this tutorial](https://indesignsecrets.com/indesign-basics-bleeds-in-indesign.php). It's useful if you want
-a page with color extending (bleeding) to the edge of the paper.
+** This tutorial will not cover bleed, but if you want to learn out more about it checkout [this tutorial](https://indesignsecrets.com/indesign-basics-bleeds-in-indesign.php). It's useful if you want
+to print a page with color extending (bleeding) to the edge of the paper.
 
 Next, Choose your work space. go to window -> workspace -> [Typography]. This setup includes the tools we'll be using today: pages, layers, stroke, paragraph styles, character styles.
 
@@ -48,7 +48,7 @@ Defining paragraph styles is the professional way to use InDesign. Although it m
 Make sure to name your style and to define font, size, and color.
 
 3. Repeat process to define 4 styles:
-- "Title" : Font size 36
+- "Title" : Font size 48
 - "Subtitle" : Font size 14
 - "Text": : Font size 10
 
