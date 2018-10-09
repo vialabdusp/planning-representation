@@ -1,7 +1,7 @@
 # Layout in InDesign
 [Eric Huntley](@ehuntley) and [Yael Nidam](@yaelnidam)
 
-![final](./images/12AmesSt.jpg)
+![final](./images/board.jpg)
 
 InDesign is often used for preparing poster and book layouts. This tutorial will introduce you to some basic time-saving features that will help you get started with your own poster or portfolio.
 
@@ -67,6 +67,6 @@ Design tips:
 
 ## Add Images
 
-Drag and drop images into the InDesign artboard. One click on the image will let you add the frame size and location. Double click on the image will let edit size.
+Drag and drop images into the InDesign artboard. One click on the image will let you add the frame size and location. Double click on the image will let edit size and scale.
 
 ![Images](./images/images.JPG)
