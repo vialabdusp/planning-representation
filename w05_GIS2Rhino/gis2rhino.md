@@ -1,7 +1,7 @@
 # 3D model - 1/3 GIS to Rhino
 [Eric Huntley](@ehuntley) and [Yael Nidam](@yaelnidam)
 
-![stages](./images/stages.JPG)
+![stages](./images/Stages.jpg)
 
 This set of three tutorials will utilize GIS data to create a 3d model in rhino and final graphic editing in Illustrator.
 
