@@ -6,7 +6,7 @@
 This set of three tutorials will utilize GIS data to create a 3D model in rhino and final graphic editing in Illustrator.
 
 ### File for This Exercise
-[Download the GIS file for this exercise here.](https://web-cert.mit.edu/ehuntley/Public/rhino_workshop.zip)
+[Download the GIS file for this exercise here.](http://web.mit.edu/ehuntley/Public/rhino_workshop.zip)
 
 ## ArcMap Setup
 Open ArcMap and upload the following layers:
