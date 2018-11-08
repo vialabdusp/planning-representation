@@ -83,7 +83,7 @@ Open the attribute table for BuildingFootprints_Contours
 
 - Create new field called "Elevation"
 - Right click the field name and open the field calculator.
-- Elevation = [ABG_BLD_HG] + [Min_Elevat]
+- Elevation = 30 + [Min_Elevat]
 
 ### 3. Check to make sure all fields you will be exporting to CAD include an elevation field.
 
