@@ -3,11 +3,10 @@
 
 ![stages](./images/Stages.jpg)
 
-This set of three tutorials will utilize GIS data to create a 3d model in rhino and final graphic editing in Illustrator.
-
+This set of three tutorials will utilize GIS data to create a 3D model in rhino and final graphic editing in Illustrator.
 
 ### File for This Exercise
-Download the GIS file for this exercise from here:
+[Download the GIS file for this exercise here.](https://web-cert.mit.edu/ehuntley/Public/rhino_workshop.zip)
 
 ## ArcMap Setup
 Open ArcMap and upload the following layers:
@@ -18,9 +17,6 @@ Open ArcMap and upload the following layers:
 5. Study_area_05
 
 ** The contour layer was derived from a Digital Elevation Model (DEM), which produces clean and continues contour lines. This method is preferred to the overly detailed contour lines available through municipalities' websites, that are usually not continues or closed polygons.
-
-The Summerville Contour lines were downloaded from MassGIS Data and clipped to the study area box.
-
 
 ## Generate topography polygons
 
