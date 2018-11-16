@@ -126,4 +126,4 @@ To start the process unlock the Add Elements group and Lock the individual layer
 - Scale to the desired size.
 5. Export: File -> Export -> Export as -> Choose type and check the box for Use Artboard, select the artboard you wish to export -> OK.
 
-![initial model](./images/SomervilleISO-01.jpg)
+![initial model](./images/SomervilleISO2-01.jpg)
