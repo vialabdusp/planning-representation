@@ -6,8 +6,7 @@
 This set of three tutorials will utilize GIS data to create a 3d model in rhino and final graphic editing in Illustrator.
 
 
-### File for This Exercise
-Download the Rhino file for this exercise from here:
+## [Download Files for This Exercise](http://duspviz.mit.edu/resources/Rhino2Illustrator.zip)
 
 Your initial model should look like this:
 ![initial model](./images/rhinointro.jpg)
