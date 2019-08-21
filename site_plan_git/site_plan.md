@@ -27,7 +27,7 @@ For people working on MIT machines, please copy the files to your external hard 
 
 ### 1. Open ArcMap and Add Layers
 
-![ArcGIS](./images/arcgis.JPG)
+![ArcGIS](./images/arcgis.jpg)
 
 1. Use ** Catalog ** to connect to the data folder in your computer by right clicking on 'folder connections' and choosing the path to your data folder.
 2. Use ** Table of Contents ** to add layers from the data folder by right clicking on the layers icon in the table of Contents and adding all the layers from your data folder.
@@ -46,7 +46,7 @@ Defining a layout view is super important for 2 reasons:
 1. If a specific scale is important for your map, you need to set scale and paper size in GIS.
 2. If this is a work in progress and you might want to add layers in the future, this will make the process quick and easy.
 
-![layout](./images/layout.JPG)
+![layout](./images/layout.jpg)
 
 Follow these steps:
 1. Click on the "layout view" icon, it's the second icon to the left, located at the bottom left part of the screen.
