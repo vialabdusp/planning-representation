@@ -1,6 +1,7 @@
 # Site Plan Design
-
 Eric Huntley and Yael Nidam
+
+![Data Frame Properties](./images/site_plan.JPG)
 
 This tutorial is a one-stop-shop for creating a compelling site plan in illustrator from raw GIS files. The first section will provide best practice advice for exporting layers from GIS to illustrator, and second part will walk through the steps of site plan design in illustrator. We assume no prior knowledge of GIS or Illustrator.
 
