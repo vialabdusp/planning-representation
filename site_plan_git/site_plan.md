@@ -4,7 +4,7 @@ Eric Huntley and Yael Nidam
 
 This tutorial is a one-stop-shop for creating a compelling site plan in illustrator from raw GIS files. The first section will provide best practice advice for exporting layers from GIS to illustrator, and second part will walk through the steps of site plan design in illustrator. We assume no prior knowledge of GIS or Illustrator.
 
-## Lab Data
+### Lab Data
 Download the files from: (Add link)
 
 Alternatively, you can download the following layers directly from the [City of Cambridge GIS page](https://www.cambridgema.gov/GIS/gisdatadictionary/Basemap):
