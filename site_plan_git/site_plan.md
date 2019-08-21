@@ -30,8 +30,8 @@ For people working on MIT machines, please copy the files to your external hard 
 
 ![ArcGIS](./images/arcgis.jpg)
 
-1. Use ** Catalog ** to connect to the data folder in your computer by right clicking on 'folder connections' and choosing the path to your data folder.
-2. Use ** Table of Contents ** to add layers from the data folder by right clicking on the layers icon in the table of Contents and adding all the layers from your data folder.
+1. Use **Catalog** to connect to the data folder in your computer by right clicking on 'folder connections' and choosing the path to your data folder.
+2. Use **Table of Contents** to add layers from the data folder by right clicking on the layers icon in the table of Contents and adding all the layers from your data folder.
 
 
 ### 2. Adjust Projection
