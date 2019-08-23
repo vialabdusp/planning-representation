@@ -83,7 +83,7 @@ This stage will introduce the layers panel.
 ![layers](./images/layers.jpg)
 *Adapted from the [Intro to Adobe Illustrator tutorial](http://duspviz.mit.edu/tutorials/adobe-illustrator/)*
 
-- **Step one: Clipping Mask**
+- **Layers: Clipping Mask**
   Open the layer panel (window -> Layer).
   you'll see the results of exporting a file from GIS to Illustrator:
   - Each GIS layer has been converted to an Illustrator layer with the same name.
@@ -93,7 +93,7 @@ This stage will introduce the layers panel.
   - Delete the clipping mask by dragging it into the bin at the bottom right of the layers panel. After this action you'll see the full extent of the polygons exported (outside of the frame).
   - Lock the clipping mask by clicking on the lock icon next to the layer. After this action the polygons will still be masked, but you'll be able to edit their properties.
 
-- **Step two: Legacy Text**
+- **Type: Legacy Text**
   In the top panel choose Type -> Legacy Text -> Update All Legacy Text
 
 ### 2. Edit Layers
@@ -101,7 +101,7 @@ This stage will introduce the fill/stroke tool the tools panel.
 ![Tools](./images/tools.jpg)
 *Adapted from the [Intro to Adobe Illustrator tutorial](http://duspviz.mit.edu/tutorials/adobe-illustrator/)*
 
-- **Step one: reorder and group layers**
+- **Layers**
   This step will make editing easy by grouping layers that will have the same color and stroke.
 
     - Group layers
@@ -114,7 +114,7 @@ This stage will introduce the fill/stroke tool the tools panel.
     2. Public (Sidewalks, PublicFootpaths, PrivateWalkways, Decks, Docks)
     3. infrastructure (Driveways, Parkinglots, Roads, Bridges)
 
-- **Step two: edit stroke and color**
+- **Tools: Fill/Stroke**
   The fill color tool is the rectangle at the bottom of the tools panel that controls the fill color of the polygon.
   The stroke tool is the hollow rectangle at the bottom of the tools panel that controls the stroke/border color of the polygon. stroke weight and type can be adjusted in the top panel.
   You can toggle between the fill color and stroke tools by using the small arrow or the 'x' hot key.
@@ -132,6 +132,11 @@ This stage will introduce the fill/stroke tool the tools panel.
     Click on the word Stroke, a new pop up window will open where you can adjust line type. Next to the word stroke is the line weight, it usually defaults to 1pt, adjust as needed. Another way to reach the stroke menu: window -> Stroke.
     4. Lock layer by clicking on the right box next to the layer's name. You will see a lock icon populating the box.
 
+- **Shadow Effect**
+1. In the layers panel-> choose all polygons in the 'building' group by clicking on the group's circle.
+2. In the top panel-> Effect -> Stylize -> Drop Shadow.
+3. X offset: -0.05. Y offset: -0.05. Blur: 0.05.
+4. Repeat process for the 'bridges' and 'docks' layers.
 
 ### 2. Add Background
 This stage will introduce the rectangle and pen tools in the tools panel.
@@ -143,10 +148,10 @@ This stage will introduce the rectangle and pen tools in the tools panel.
 Drag 'background' to the bottom of the layers panel.
 Click on the background layer once, the layer will be highlighted and all new objects will be created in this layer.
 
-**Tool: Rectangle**
+**Tool: Rectangle (M)**
 2. In the tools panel -> Use the rectangle tool to draw a rectangle the size of the drawing frame. The rectangle layer will be hosted under the background layer, name it 'grey background', Change the fill color to: EAEAEA.
 
-**Tool: Pen**
+**Tool: Pen (P)**
 3. In the tools panel -> Use the pen tool to draw a polygon where the river should be.
   - To draw straight lines -> click to indicate where the next node should be.
   - To create curvy lines -> Click and drag.
@@ -160,3 +165,43 @@ In the stroke panel (window-> Stroke) stroke type: dashed line, dash: 2pt, gap: 
 
 At the end of this stage your image should look like this:
 ![mid](./images/mid.JPG)
+
+### 2. Site Diagram Design
+This stage will introduce the select, ellipse, and image tracing tools. For practice purpose, the design will highlight Ames street as a connection to the sailing pavilion. As a design strategy, background colors are mute, while intervention colors are bright.
+
+**Tool: Select (V)**
+1. In the tools panel -> Choose select (black arrow on top), and select the Muddy Charles's Building.
+Right click -> Arrange -> Bring to Front.
+This command will send this polygon to the top of the Buildings layers.
+
+2. In layers panel ->
+  - create a new layer named 'diagram' and drag to the top.
+  - Go to the buildings layer and select the 'Muddy Charles' polygon.
+  - Duplicate layer by dragging it to the 'create new layer' icon at the bottom right of the layers panel.
+  - Drag the duplicated layer to the 'diagram' layer, and change color to C61E53.
+
+**Tool: Pen (P)**
+1. In the layers menu -> choose 'diagram'.
+2. Use the pen tool to draw the intervention area as shown at the top pf the page. Fill: empty. Stroke: C61E53, weight: 2pt.
+
+**Tool: Ellipse (L)**
+1. In layers panel -> create a new layer named 'trees' and drag into 'diagram'. Choose the 'trees' layer by clicking on it once.
+ In the tools panel -> choose ellipse (long click on the rectangle icon will open a menu of shapes).
+2. Use shift to create a perfect circle.  Fill: C61E53. Stroke: empty. Opacity: 50%.
+
+**Tool: Select (V)**
+ 1. select tool -> Select the pink ellipse and use controls to change its size.
+ 2. select tool + Alt key -> duplicate shape.
+ 3. Use the select tool to create a tree avenue on aims street that leads to the Muddy Charles. make sure all new 'trees' are created in the 'trees' layer.
+
+ **Image Tracing**
+ This process will convert an image to a vector file, that you can then further edit in Illustrator.
+
+ 1. In the layers panel -> create a new layer, name it 'boats' and drag it into the diagram layer.
+ 2. Use internet search services to find an plan-view image of a small boat. Save image to the project file and then drag into the illustrator artboard. drag image to the 'boats' layer.
+ 3. Use the select tool to click on the image, a tracing menu will appear at the top panel.
+ 4. Duplicate image before tracing, since tracing is reversible only by ctrl + Z.
+ 5. From the top panel -> Image Trace-> 16 colors (recommended, but you can test other options to get a better understanding of the tool).
+ 6. After Tracing is complete and you are happy with the result, click on 'Expend' in the top panel. This action will convert the image into an illustrator layer and all the polygons will be hosted under this layer.
+ 7. Edit the tracing result by deleting unnecessary polygons and adjusting fill and stroke colors to match the site plan image.
+ 8. use the select tool to resize the image and place it in the river, on top of one of the boat paths. Duplicate boat image and add boats on other paths.
