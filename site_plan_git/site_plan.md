@@ -78,6 +78,15 @@ File -> Export Map -> Choose location and name, make sure the file type is AI!
 ## Part Two: Illustrator Editing and Design
 For a comprehensive introduction to the Illustrator interface, check out the [Intro to Adobe Illustrator tutorial](http://duspviz.mit.edu/tutorials/adobe-illustrator/). The following site plan tutorial will introduce you to a workflow to produce a site plan, using common illustrator tools.
 
+Navigation Shortcuts:
+**Zoom IN** Ctrl/Cmd + "+" OR hold Alt/Opt + mouse scroll wheel "up"
+**Zoom Out** Ctrl/Cmd + "-" OR hold Alt/Opt + mouse scroll wheel "down"
+**Pan up** mouse scroll wheel "up"
+**Pan down** mouse scroll wheel "down"
+**Pan left** hold Ctrl/Cmd + mouse scroll wheel "up"
+**Pan up** hold Ctrl/Cmd + mouse scroll wheel "down"
+**Pan up** hold spacebar + mouse click-and-drag
+
 ### 1. Prepare Layers for Editing
 This stage will introduce the layers panel.
 ![layers](./images/layers.jpg)
@@ -143,8 +152,8 @@ This stage will introduce the rectangle and pen tools in the tools panel.
 
 **Layers**
 1. In the layers panel->
-  - Create a new layer and name it 'background'.
-  - Create a new layer and name it boat path. Drag 'boat path' into background.
+    - Create a new layer and name it 'background'.
+    - Create a new layer and name it boat path. Drag 'boat path' into background.
 Drag 'background' to the bottom of the layers panel.
 Click on the background layer once, the layer will be highlighted and all new objects will be created in this layer.
 
@@ -153,8 +162,8 @@ Click on the background layer once, the layer will be highlighted and all new ob
 
 **Tool: Pen (P)**
 3. In the tools panel -> Use the pen tool to draw a polygon where the river should be.
-  - To draw straight lines -> click to indicate where the next node should be.
-  - To create curvy lines -> Click and drag.
+    - To draw straight lines -> click to indicate where the next node should be.
+    - To create curvy lines -> Click and drag.
 Name the new layer 'river', change fill color to:0D2A3F, place above 'grey background'.
 
 4. In the layers panel - choose the 'boat path' layer.
@@ -166,8 +175,8 @@ In the stroke panel (window-> Stroke) stroke type: dashed line, dash: 2pt, gap: 
 At the end of this stage your image should look like this:
 ![mid](./images/mid.JPG)
 
-### 2. Site Diagram Design
-This stage will introduce the select, ellipse, and image tracing tools. For practice purpose, the design will highlight Ames street as a connection to the sailing pavilion. As a design strategy, background colors are mute, while intervention colors are bright.
+### 3. Design Site Diagram
+This stage will introduce the select, ellipse, image tracing, and feather tools. For practice purpose, the design will highlight Ames street as a connection to the sailing pavilion. As a design strategy, background colors are mute, while intervention colors are bright.
 
 **Tool: Select (V)**
 1. In the tools panel -> Choose select (black arrow on top), and select the Muddy Charles's Building.
@@ -195,7 +204,7 @@ This command will send this polygon to the top of the Buildings layers.
  3. Use the select tool to create a tree avenue on aims street that leads to the Muddy Charles. make sure all new 'trees' are created in the 'trees' layer.
 
  **Image Tracing**
- This process will convert an image to a vector file, that you can then further edit in Illustrator.
+  This process will convert an image to a vector file, that you can then further edit in Illustrator.
 
  1. In the layers panel -> create a new layer, name it 'boats' and drag it into the diagram layer.
  2. Use internet search services to find an plan-view image of a small boat. Save image to the project file and then drag into the illustrator artboard. drag image to the 'boats' layer.
@@ -205,3 +214,17 @@ This command will send this polygon to the top of the Buildings layers.
  6. After Tracing is complete and you are happy with the result, click on 'Expend' in the top panel. This action will convert the image into an illustrator layer and all the polygons will be hosted under this layer.
  7. Edit the tracing result by deleting unnecessary polygons and adjusting fill and stroke colors to match the site plan image.
  8. use the select tool to resize the image and place it in the river, on top of one of the boat paths. Duplicate boat image and add boats on other paths.
+
+**Feather**
+  We'll use this effect to focus attention on the intervention area by dimming the background.
+
+1. In the layers panel-> create a new layer, name it 'frame' and drag to the top. Click on the layer to choose it.
+2. Use the rectangle tool to draw a rectangle, larger than the size of the entire artboard.
+3. Duplicate the site intervention border and drag the copy to the 'frame' layer. place this shape below the rectangle.
+4. Choose both shapes by holding Ctrl/Cmd and clicking on the layer's circle in the layers panel.
+5. You can deduct the intervention shape from the rectangle shape in two ways:
+  - In the artboard space, right click and choose: make compound path. This action will maintain the proportions of the two shapes separately, so you can later resize the rectangle without changing the proportions of the intervention area.
+  - Window -> Pathfinder, choose 'minus back'. This action will join the two shapes into one, and any size changes will apply to both shapes.
+6. Change fill color to white, stroke empty.
+6. From the top panel -> Effects -> Stylize -> Feather, click on preview and choose the feather value that fits best.
+7. Change Opacity to 50%.
