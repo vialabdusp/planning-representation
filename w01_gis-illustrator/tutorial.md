@@ -12,7 +12,7 @@ We'll be starting slow - this workshop will introduce a fairly straightforward w
 
 ## Getting Lab Data
 
-First, download the files from [Eric's Public Athena locker](https://mit.edu/ehuntley/Public/illustrator-workshop.zip). This will contain
+First, download the files from [Eric's Public Athena locker](https://mit.edu/ehuntley/Public/illustrator-workshop.zip). 
 
 Please copy the files to your external hard drive. If you don’t have an external hard drive you should get one as soon as possible. In the meantime, you can download the files to your `C:\temp` directory. Remember that this directory gets erased quite frequently and you should not leave files on `c:\temp` when you leave lab.
 
