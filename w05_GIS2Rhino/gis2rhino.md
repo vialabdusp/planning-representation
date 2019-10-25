@@ -88,3 +88,9 @@ Open the attribute table for BuildingFootprints_Contours
 ### 3. Check to make sure all fields you will be exporting to CAD include an elevation field.
 
 ## Export to CAD
+### 1. Select layers to export
+In Table of Contents Layers window, right click the ContoursPolygon_Elev layer: Data -> Export to CAD
+
+### 2. Export settings
+Input feature: select BuildingFootprints_Contours to add it for CAD export. Create a new folder to save this file as an output from GIS. 
+
