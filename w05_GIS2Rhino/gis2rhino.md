@@ -94,14 +94,21 @@ In Table of Contents Layers window, right click the ContoursPolygon_Elev layer: 
 ### 2. Export settings
 Input feature: select BuildingFootprints_Contours to add it for CAD export. Create a new folder to save this file as an output from GIS. 
 
-IMPORTANT NOTE: All layers should have identical Projected Coordinate System (in this tutorial: NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet) when exporting a single DWG file with multiple layers. If there are mixed coordinate systems, you may find layers do not place in the same place when importing the DWG into Rhino.
+- IMPORTANT NOTE: All layers should have identical Projected Coordinate System (in this tutorial: NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet) when exporting a single DWG file with multiple layers. If there are mixed coordinate systems, you may find layers do not place in the same place when importing the DWG into Rhino.
 
 ## Import DWG in Rhino
-- Launch Rhino and create a new file (Large Object: Feet). The linear unit should be the same with your GIS file's projected coordinate system.
-- We will introduce more about the interface, views, commend, and layer management in Rhino.
-- Insert the DWG file into Rhino. We will discuss the difference between Insert and Import.
-- Type "Zoom" in commend window -> Extend, to zoom to the DWG file. 
+### 1. Launch Rhino
+Open Rhino and create a new file (Large Object: Feet). The linear unit should be the same with your GIS file's projected coordinate system. We will introduce more about the interface, views, commend, and layer management in Rhino.
 
-## Congratulations! Now you've successfully exported GIS data as a DWG file (drawing file) and imported in Rhino for 3D creation. Move forward to the next session on generating topography, extrusion, and render in Rhino.
+### 2. Loading DWG into Rhino
+Insert the DWG file into Rhino. We will discuss the difference between Insert and Import.
+
+### 3. View and layer management
+- View management: Type "Zoom" in commend window -> Extend, to zoom to the DWG file. 
+
+- Layer management: In Layer Panel, you will see the identical layers in Rhino as ArcGIS. You can manage the layers by 1) assign the current layer; 2) turn on/off the layer; 3) rename; and 4) restyle the layer with different colors and line weight.
+
+
+#### Congratulations! Now you've successfully exported GIS data as a DWG file (drawing file) and imported in Rhino for 3D creation. Move forward to the next session on generating topography, extrusion, and render in Rhino.
 
 
