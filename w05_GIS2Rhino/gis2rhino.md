@@ -94,3 +94,6 @@ In Table of Contents Layers window, right click the ContoursPolygon_Elev layer: 
 ### 2. Export settings
 Input feature: select BuildingFootprints_Contours to add it for CAD export. Create a new folder to save this file as an output from GIS. 
 
+IMPORTANT NOTE: All layers should have identical Projected Coordinate System (in this tutorial: NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001_Feet) when exporting a single DWG file with multiple layers. If there are mixed coordinate systems, you may find layers do not place in the same place when importing the DWG into Rhino.
+
+
