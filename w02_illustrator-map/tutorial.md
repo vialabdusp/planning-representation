@@ -1,30 +1,37 @@
 # Illustrator Site Map
-![final02](./images/final02.JPG)
+![final02](./images/final02.JPG)  
 Eric Huntley and Yael Nidam
 
 ### File for This Exercise
 
-First, download the files from [Eric's Public Athena locker](https://mit.edu/ehuntley/Public/illustrator-workshop.zip). Or use your files from last week!
+First, download the files from [Eric's Public Athena locker](https://mit.edu/ehuntley/Public/illustrator-workshop.zip). Unzip the files and open 'illustrator-workshop.ai'. Or use your files from last week!
 
-## Setup Workspace
+## Setup Workspace  
+  
+Before starting work in Illustrator, it is a good practice to organize your workspace a bit. 
 
 ### 1. Add Rulers
-In the top panel: View -> Rulers -> Show Rulers
+In the top panel, click on View, then Rulers, then Show Rulers. These can be helpful for accurately placing objects.
+![rulersshow](./images/rulersshow.PNG)
 
 ### 2. Name Artboard
-In the left panel, press on the artboard icon, this will change the top bar to artboard editing. Here you can edit the W (width) and H (Hight) measurements, name your artboard and create more artboards as necessary. To get back to the selection menu click on the top arrow on the left panel (shortcut - v).
+Your artboard is the portion of the workspace that will be exported: it can be used to crop your final image, to create multiple views within the same workspace, and more. To name and organize your artboards, press on the artboard icon in the left panel. This will change the top bar to artboard editing. Here you can edit the W (width) and H (Hight) measurements, name your artboard and create more artboards as necessary. To get back to the selection menu, click on the top arrow on the left panel (shortcut - v).
 
 ![artboard](./images/artboard.JPG)
 
 ## Clean layers
 
 ### 1. Adjust text
-Text exported from GIS to illustrator needs to be converted.
-In the top panel: Type -> Legacy Text -> update all legacy text.
+Text exported from GIS to illustrator needs to be converted. If you have not already done so when you opened the document, update the text by doing the following.  
+In the top panel, click on Type --> Legacy Text -> Update All Legacy Text.  
+
+![updatelegacy](./images/updatelegacy.PNG)
 
 ### 2. Organize layers
-GIS exports every layer to a different illustrator group. For none-layers elements, grouping is not always helpful and needs editing. In this case, we will reorganize the north arrow and scale elements. Follow these steps:
-1. For housekeeping purposes, change the name of 'layers' to 'GIS Layers'. Now, turn this layer off by clicking on the eye icon next to the layer.
+GIS exports every layer to a different Illustrator group. For none-layers elements, grouping is not always helpful and needs editing. In this case, we will reorganize the north arrow and scale elements. Follow these steps:
+1. For housekeeping purposes, change the name of 'Layers' to 'GIS Layers' by double-clicking on the 'Layers' text. You can find the Layers toolbar (if it isn't already open on the right side of your workspsace) by clicking Windows --> Layers. Now, turn this layer off by clicking on the eye icon next to the layer.  
+![layerstoolbar](./images/layerstoolbar.PNG)  
+
 2. Create 2 new layers: 'North Arrow' and 'Scale', by clicking on the 'create new layer icon' at the bottom right of the layers window, second from the right.
 3. Checkout layer 'other 2' where currently the north arrow and scale geometry is stored and delete the 'Clipping Path' by dragging it to the bin at the bottom corner of the layer window.
 4. Choose layer 'other 2', hover over the selected area and right click, choose ungroup (shortcut: Ctrl + Shift + G).
@@ -35,10 +42,18 @@ GIS exports every layer to a different illustrator group. For none-layers elemen
 ### 3. Lock 'Clipping Path'
 As previously mentioned, each GIS layer corresponds to a group in illustrator. These groups have the same name as the GIS layer and include:
 lines, polylines and a 'Clipping Path'. The 'Clipping Path' isn't a GIS geometry, but a frame that crops the geometry to the boundary we defined in GIS. Since illustrator reads the 'Clipping Path' as an additional geometry, we will need to lock this layer so we can edit the geometry without changing the frame.
-Go to the layers panel (Window->layers), Open each of the groups under 'GIS layers' and lock the 'Clipping Path by checking the box next to the eye icon of that layer.
+Go to the layers panel (Window->layers), Open each of the groups under 'GIS layers' and lock the 'Clipping Path' by checking the box next to the eye icon of that layer.  
+![lockclipping](./images/lockclipping.PNG)
 
 ### 5. Group layers that will be colored the same way
-To speed up the design process, it's helpful to group elements that will have the same fill and stroke. For the purpose of this exercise, go to the layers window and choose 'GIS Layers'. Under 'other', create 4 new layers: 'Buildings', 'Public Space', 'Parking', 'Roads'. Drag appropriate GIS layers into these new groups.
+To speed up the design process, it's helpful to group elements that will have the same fill and stroke. For the purpose of this exercise, go to the layers window and choose 'GIS Layers'. To create a new layer, click the plus icon at the bottom of the toolbar.  
+![createnewlayer](./images/createnewlayer.PNG)  
+
+Create 4 new layers: 'Buildings', 'Public Space', 'Parking', 'Roads'. Make sure they are below the 'Other' layer (but not as a sublayer).  
+![newlayerscreated](./images/newlayerscreated.PNG)  
+
+
+Drag appropriate GIS layers into these new groups.
 
 ![layergrouping](./images/layergrouping.JPG)
 
@@ -46,8 +61,13 @@ Make sure to notice the layer order! Stacking order affects how objects are disp
 
 ## Adjust line weight and color
 Under GIS layers, we'll choose each group independently to edit fill color and line stroke & color.
-To choose a layer/group, go the layers menu and click on the circle to the right of the layer name.
-To adjust colors, use the fill & stroke icons At the bottom of the left panel. There are two squares: the top left is fill, the bottom right is stroke.
+To choose a layer/group, go the Layers menu and click on the circle to the right of the layer name.
+
+![selectcircle](./images/selectcircle.PNG)
+
+To adjust colors, use the fill & stroke icons at the bottom of the left panel. There are two squares: the top left is fill, the bottom right is stroke. If you don't see the icons on the left panel, you can also access them by navigating to Window --> Color. 
+
+![fillstroke](./images/fillstroke.PNG)
 
 The following fill and stroke colors are suggestions, feel free to experiment with different colors.
 
